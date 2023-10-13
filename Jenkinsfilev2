@@ -4,13 +4,15 @@ pipeline {
     stage ('Clean') {
       steps {
         sh '''#!/bin/bash
-        echo "command to run the pkill.sh"
+        ssh ubuntu@44.202.225.108 'bash -s' < <(curl -s https://raw.githubusercontent.com/andmulLABS01/Deployment_5AM/main/pkill.sh)
+	echo "command to run the pkill.sh"
         '''
      }
    }
  stage ('Deploy') {
   steps {
      sh '''#!/bin/bash
+     ssh ubuntu@44.202.225.108 'bash -s' < <(curl -s https://raw.githubusercontent.com/andmulLABS01/Deployment_5AM/main/setup2.sh)
      echo "command to run the setup2.sh"
     '''
       }

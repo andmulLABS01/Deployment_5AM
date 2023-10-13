@@ -1,10 +1,14 @@
 #!/bin/bash
-rm -rf c4_deployment-5
+rm -rf Deployment_5AM
 source test/bin/activate
-git clone https://github.com/kura-labs-org/c4_deployment-5.git
-cd c4_deployment-5
+git clone https://github.com/andmulLABS01/Deployment_5AM.git
+cd Deployment_5AM
 pip install -r requirements.txt
+sleep 6
+echo "Requirements Installed"
 pip install gunicorn
+sleep 6
+echo "Gunicorn Installed"
 python database.py
 sleep 1
 python load_data.py
