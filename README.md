@@ -126,7 +126,7 @@ However, we could place parts of the second instance, application and database t
 
 ## System Diagram:
 
-To view the diagram of the system design/deployment pipeline, click [HERE](https://github.com/andmulLABS01/Deployment_3AM/blob/main/Depoyment3.drawio.png)
+To view the diagram of the system design/deployment pipeline, click [HERE](https://github.com/andmulLABS01/Deployment_5AM/blob/main/Deployment_5.drawio.png)
 
 ## Issues/Troubleshooting:
 
