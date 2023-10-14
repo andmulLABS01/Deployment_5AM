@@ -112,7 +112,7 @@ Demonstrate the ability to deploy a new flask application to an EC2 instance.
 	- Push the updates to your repository
 		- `git push`
 #### 7b. View the application after the change
-- Click [HERE](https://github.com/andmulLABS01/Deployment_5AM/blob/main/Deployment_5a.PNG)
+- Click [HERE](https://github.com/andmulLABS01/Deployment_5AM/blob/main/Deployment_5b.PNG)
 
 ### 8. How did you decide to run the Jenkinsfilev2? 
 
