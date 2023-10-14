@@ -147,9 +147,7 @@ Resolution Steps:
 
 ## Conclusion:
 
-This deployment can be improved. One improvement would be to automate the creation of the following:
-- AWS instance
-- Jenkins server
-- Creating GitHub repository
-
-Some of the automation would include writing Bash scripts for the installation process. We may also want to start thinking about how we will handle incident response when an alert is triggered.
+As stated in previous documentation this deployment was improved by automating the setup of infrastructure by using Terraform.  However, additional improvements can be made to the Terraform code by can be improved by setting up variables and modules.  These will allow the Terraform code to be more flexible, less information would need to be hard-coded, and the code would be shorter to improve efficiency.  We can also utilize ChatGPT to assist with error messages and check our Terraform code for errors before deployment. Utilizing prompts such as:
+- You are a Terraform expert
+- Check the main.tf, or other Terraform file, for errors
+- Please explain the error, including the method to fix the error, and provide a link to documentation. AWS instance
