@@ -13,7 +13,7 @@ Demonstrate the ability to deploy a NEW flask application to an EC2 instance..
 ## Steps:
 
 ### 1. Create a VPC with Terraform and the VPC MUST have only the components listed: 1 VPC, 2 AZs, 2 Public Subnets, 2 EC2s, 1 Route Table, Security Group Ports: 8080, 8000, 22
-   - This process is to give us practice using Terraform to create our AWS infrastructure using resource blocks.  Here is the link to the main.tf file [HERE](https://github.com/andmulLABS01/Deployment_3AM/blob/main/Depoyment3.drawio.png)
+   - This process is to give us practice using Terraform to create our AWS infrastructure using resource blocks.  Here is the link to the main.tf file: Click [HERE](https://github.com/andmulLABS01/Deployment_3AM/blob/main/Depoyment3.drawio.png)
    - Also we will utilize Git to continue gaining experience in the day-to-day operations of a DevOps engineer.
    - We must update several files and merge them into the main branch.
 	  - Create a new repository on GitHub
@@ -90,7 +90,7 @@ Demonstrate the ability to deploy a NEW flask application to an EC2 instance..
 
 
 ### 6. Check the application on the second instance!!
-	- Here is the screenshot of the application. [HERE](https://github.com/andmulLABS01/Deployment_3AM/blob/main/Depoyment3.drawio.png)
+- Here is the screenshot of the application. Click [HERE](https://github.com/andmulLABS01/Deployment_5AM/blob/main/Deployment_5a.PNG)
 	
 ### 7. Now make a change to the HTML and then run the Jenkinsfilev2	
 	- Steps in the Jenkinsfilev2 are as follows:
@@ -111,6 +111,8 @@ Demonstrate the ability to deploy a NEW flask application to an EC2 instance..
 		- `git merge second main`
 	- Push the updates to your repository
 		- `git push`
+#### 7b. View the application after the change
+- Click [HERE](https://github.com/andmulLABS01/Deployment_5AM/blob/main/Deployment_5a.PNG)
 
 ### 8. How did you decide to run the Jenkinsfilev2? 
 
