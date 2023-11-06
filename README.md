@@ -8,7 +8,7 @@ By: Andrew Mullen
 
 ## Purpose:
 
-Demonstrate the ability to deploy a retail banking application to an EC2 instance.
+Practicing our ability to deploy a retail banking application to an EC2 instance and creating infrastructure for our Jenkins and Flask applications with a Guincorn webserver and SQLite database. 
 
 ## Steps:
 
