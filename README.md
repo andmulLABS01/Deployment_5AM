@@ -8,7 +8,7 @@ By: Andrew Mullen
 
 ## Purpose:
 
-Demonstrate the ability to deploy a new flask application to an EC2 instance.
+Demonstrate the ability to deploy a retail banking application to an EC2 instance.
 
 ## Steps:
 
