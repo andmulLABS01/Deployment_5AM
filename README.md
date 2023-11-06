@@ -13,7 +13,7 @@ Demonstrate the ability to deploy a new flask application to an EC2 instance.
 ## Steps:
 
 ### 1. Create a VPC with Terraform, and the VPC must have only the components listed: 1 VPC, 2 AZs, 2 Public Subnets, 2 EC2s, 1 Route Table, Security Group Ports: 8080, 8000, 22
-   - This process is to give us practice using Terraform to create our AWS infrastructure using resource blocks.  Here is the link to the main.tf file: Click [HERE](https://github.com/andmulLABS01/Deployment_5AM/blob/main/Deployment_5.drawio.png)
+   - This process is to give us practice using Terraform to create our AWS infrastructure using resource blocks.  Here is the link to the main.tf file: Click [HERE](https://github.com/andmulLABS01/Deployment_5AM/blob/main/main.tf)
    - Also we will utilize Git to continue gaining experience in the day-to-day operations of a DevOps engineer.
    - We must update several files and merge them into the main branch.
 	  - Create a new repository on GitHub
