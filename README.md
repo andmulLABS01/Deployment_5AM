@@ -1,4 +1,4 @@
-<h1 align="center">Deploy a NEW flask application<h1> 
+<h1 align="center">Deploy a retail banking application to an EC2 instance<h1> 
 
 
 # Deployment 5
